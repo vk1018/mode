@@ -1,0 +1,27 @@
+.bg-con {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.dark-mode {
+  background-color: #000;
+  border-radius: 8px;
+  padding: 20px;
+  color: #fff;
+}
+.light-mode {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 20px;
+  border-radius: 8px;
+}
+.mode-btn {
+  height: 38px;
+  width: 100px;
+  border-radius: 5px;
+  font-weight: 700;
+}
